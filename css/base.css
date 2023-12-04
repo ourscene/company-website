@@ -291,8 +291,10 @@ section,
 .section,
 .row.relative,
 .block-content {
-    position: relative;
-    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 .front-p {
     position: relative;
