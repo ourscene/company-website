@@ -389,7 +389,7 @@ h1.large {
     z-index: 4;
 }
 .block-content .col-sm-3:last-child .block-img:after {
-    content: none;
+    margin: 10px;
 }
 .block-speaker .block-img .background-img {
     filter: grayscale(1);
