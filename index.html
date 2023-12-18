@@ -51,9 +51,21 @@
     .footer-overflow-container {
         overflow-x: auto;
         display: flex;
-        background-color: #000000;
+        align-items: center;
+        justify-content: center;
+        background-color: #000;
+        color: #fff;
     }
 
+    .footer-overflow-container * {
+    color: #fff; /* Ensuring all child elements have white text */
+    }
+    
+    .footer-overflow-container input,
+    .footer-overflow-container label {
+        color: #fff;
+    }
+    
     .footer-container {
         flex-grow: 1;
         position: relative;
@@ -556,6 +568,11 @@
         .footer-pill-primary-background > svg {
             display: none;
         }
+        #mc_embed_signup {
+            background: transparent; /* Make Mailchimp signup form background transparent */
+            margin: 0 auto; /* Center the form */
+            width: 100%; /* Adjust width as needed */
+}
     }
 </style><div class="footer-overflow-container" lang="en-GB">
   <div class="footer-container">
